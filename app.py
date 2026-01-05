@@ -4,7 +4,7 @@ import math
 st.set_page_config(page_title="SRM Attendance", page_icon="🎓")
 
 st.title("🎓 SRM Attendance Planner")
-st.write("Calculate exactly how many classes you can bunk or need to attend to maintain 75%.")
+st.write("Calculate exactly how many classes you can skip or need to attend to maintain 75%.")
 
 col1, col2 = st.columns(2)
 with col1:
@@ -33,3 +33,4 @@ else:
 
 st.markdown("---")
 st.caption("Built with pure Python by Abhinav Ram")
+
